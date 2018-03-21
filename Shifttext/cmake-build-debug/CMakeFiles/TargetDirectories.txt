@@ -1,0 +1,3 @@
+D:/JetBrainProject/ClionProject/Shifttext/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/JetBrainProject/ClionProject/Shifttext/cmake-build-debug/CMakeFiles/Shifttext.dir
+D:/JetBrainProject/ClionProject/Shifttext/cmake-build-debug/CMakeFiles/rebuild_cache.dir
