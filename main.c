@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <mem.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
 typedef enum boolean {
     FALSE = 0,
@@ -30,7 +30,7 @@ int main() {
         }
     } while (!validInput);
 
-    len = strlen(data);
+    len = (int) strlen(data);
 
     for (int i = 0; i < len; i++) {
         data[i] = (char) toupper(data[i]);
