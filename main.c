@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <mem.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 typedef enum boolean {
     FALSE = 0,
@@ -15,7 +16,7 @@ int main() {
     int len = 0;
     Boolean validInput = FALSE;
     FILE *fp;
-    fp = fopen("painetext.txt", "r+");
+    fp = fopen("painetext.txt", "w");
 
     do {
         printf("Please enter cipher-text you want to decode: ");
@@ -30,6 +31,10 @@ int main() {
     } while (!validInput);
 
     len = strlen(data);
+
+    for (int i = 0; i < len; i++) {
+        data[i] = (char) toupper(data[i]);
+    }
 
     for (int i = 0; i < 26; i++) {
         printf("Shift by %d: ", i);

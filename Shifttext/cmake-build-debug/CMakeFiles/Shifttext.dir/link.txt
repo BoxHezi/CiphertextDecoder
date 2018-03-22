@@ -1,3 +1,0 @@
-"E:\JetBrain\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Shifttext.dir/objects.a
-E:\MinGW\bin\ar.exe cr CMakeFiles\Shifttext.dir/objects.a @CMakeFiles\Shifttext.dir\objects1.rsp
-E:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Shifttext.dir/objects.a -Wl,--no-whole-archive  -o Shifttext.exe -Wl,--out-implib,libShifttext.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Shifttext.dir\linklibs.rsp
