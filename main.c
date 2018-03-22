@@ -16,7 +16,7 @@ int main() {
     int len = 0;
     Boolean validInput = FALSE;
     FILE *fp;
-    fp = fopen("painetext.txt", "w");
+    fp = fopen("plaintext.txt", "w");
 
     do {
         printf("Please enter cipher-text you want to decode: ");
