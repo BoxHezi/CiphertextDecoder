@@ -37,8 +37,8 @@ int main() {
     }
 
     for (int i = 0; i < 26; i++) {
-        printf("Shift by %d: ", i);
-        fprintf(fp, "Shift by %d: ", i);
+        printf("Shift by %d: ", 26 - i);
+        fprintf(fp, "Shift by %d: ", 26 - i);
         for (int j = 0; j < len; j++) {
             tempChar = (char) (data[j] + i);
             if (tempChar > 'Z') {
